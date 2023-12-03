@@ -3212,7 +3212,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.15.4":
+"@babel/runtime@npm:^7.15.4, @babel/runtime@npm:^7.23.2":
   version: 7.23.2
   resolution: "@babel/runtime@npm:7.23.2"
   dependencies:
@@ -5044,11 +5044,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mui/icons-material@npm:^5.10.3":
-  version: 5.11.11
-  resolution: "@mui/icons-material@npm:5.11.11"
+"@mui/icons-material@npm:^5.14.18":
+  version: 5.14.18
+  resolution: "@mui/icons-material@npm:5.14.18"
   dependencies:
-    "@babel/runtime": ^7.21.0
+    "@babel/runtime": ^7.23.2
   peerDependencies:
     "@mui/material": ^5.0.0
     "@types/react": ^17.0.0 || ^18.0.0
@@ -5056,7 +5056,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/react":
       optional: true
-  checksum: 6ec89f3c68aaedd521f6a5106964394c410b08cec6875166d3ee97dcbaf2983c67d3b19cd58113d767d9f934cc0e9439fb5856e45471f5094656c0f87bbefecd
+  checksum: 719cd99f739a34fedf64bd718942611b12fb86a58a0401c58e2a90dad690e90e33f55cd973c3792c070449fcc44390e22f9319a9129712bc8b41fbfe4611dccc
   languageName: node
   linkType: hard
 
@@ -5601,9 +5601,9 @@ __metadata:
     "@types/node": "*"
     "@types/node-cron": ^3.0.8
     "@types/uuid": ^9.0.2
-    axios: ^0.27.2
+    axios: ^1.6.2
     babel-jest: ^29.2.2
-    better-sse: ^0.9.0
+    better-sse: ^0.10.0
     concurrently: ^8.2.1
     cors: ^2.8.5
     dotenv: ^16.3.1
@@ -5638,7 +5638,7 @@ __metadata:
     concurrently: ^8.2.1
     dotenv: ^16.3.1
     javascript-obfuscator: ^2.10.3
-    nodemon: ^2.0.22
+    nodemon: ^3.0.1
     run-script-os: ^1.1.6
     typescript: 4.6.3
     vite: ^4.4.9
@@ -5697,7 +5697,7 @@ __metadata:
     "@clerk/clerk-react": 4.11.2
     "@emotion/react": ^11.11.1
     "@emotion/styled": ^11.11.0
-    "@mui/icons-material": ^5.10.3
+    "@mui/icons-material": ^5.14.18
     "@mui/lab": ^5.0.0-alpha.135
     "@mui/material": ^5.10.3
     "@sentry/react": ^7.73.0
@@ -5707,7 +5707,7 @@ __metadata:
     "@types/react": ^18.0.17
     "@types/react-dom": ^18.0.6
     autoprefixer: ^10.4.16
-    axios: ^1.4.0
+    axios: ^1.6.2
     postcss: ^8.4.16
     react: ^18.2.0
     react-dom: ^18.2.0
@@ -8483,8 +8483,8 @@ __metadata:
   linkType: hard
 
 "@types/d3@npm:^7.4.0":
-  version: 7.4.0
-  resolution: "@types/d3@npm:7.4.0"
+  version: 7.4.2
+  resolution: "@types/d3@npm:7.4.2"
   dependencies:
     "@types/d3-array": "*"
     "@types/d3-axis": "*"
@@ -8516,7 +8516,7 @@ __metadata:
     "@types/d3-timer": "*"
     "@types/d3-transition": "*"
     "@types/d3-zoom": "*"
-  checksum: d1383f5fca7c4a819d57eb4bccc387dccaa7cb4c24d56388e5247954db6c88f5fb7c74d156165dfe044f1da8d4d510796c8d8487b5956d8270a94a1182a6e00f
+  checksum: c87fefb3bbac4a591ea9b32e743a26a9de6ac4c856b6381e3692790438f4e44bc2b85190d789009d1ba5d5e156b483f49b3f53e1070b3725b687a16a51b7f299
   languageName: node
   linkType: hard
 
@@ -11547,16 +11547,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:^0.27.2":
-  version: 0.27.2
-  resolution: "axios@npm:0.27.2"
-  dependencies:
-    follow-redirects: ^1.14.9
-    form-data: ^4.0.0
-  checksum: 38cb7540465fe8c4102850c4368053c21683af85c5fdf0ea619f9628abbcb59415d1e22ebc8a6390d2bbc9b58a9806c874f139767389c862ec9b772235f06854
-  languageName: node
-  linkType: hard
-
 "axios@npm:^1.4.0":
   version: 1.4.0
   resolution: "axios@npm:1.4.0"
@@ -11565,6 +11555,17 @@ __metadata:
     form-data: ^4.0.0
     proxy-from-env: ^1.1.0
   checksum: 7fb6a4313bae7f45e89d62c70a800913c303df653f19eafec88e56cea2e3821066b8409bc68be1930ecca80e861c52aa787659df0ffec6ad4d451c7816b9386b
+  languageName: node
+  linkType: hard
+
+"axios@npm:^1.6.2":
+  version: 1.6.2
+  resolution: "axios@npm:1.6.2"
+  dependencies:
+    follow-redirects: ^1.15.0
+    form-data: ^4.0.0
+    proxy-from-env: ^1.1.0
+  checksum: 4a7429e2b784be0f2902ca2680964391eae7236faa3967715f30ea45464b98ae3f1c6f631303b13dfe721b17126b01f486c7644b9ef276bfc63112db9fd379f8
   languageName: node
   linkType: hard
 
@@ -12039,10 +12040,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"better-sse@npm:^0.9.0":
-  version: 0.9.0
-  resolution: "better-sse@npm:0.9.0"
-  checksum: 55213e0d7f0c593de256a9e5f1958657e4069c36ee6050656a20584456081d98044cb15eb3a6556feda859b18ce7801291f34a56b5740733e6d1b02b8e1df6a9
+"better-sse@npm:^0.10.0":
+  version: 0.10.0
+  resolution: "better-sse@npm:0.10.0"
+  checksum: 92ae12524e198c93443ca7fcaa4badb945f931496c0bc0adc0a726e28cf35221c47ea8333e0b86fb6e7fc4ebf511db6b3a037970a3a9523acd6689dbc298fc59
   languageName: node
   linkType: hard
 
@@ -16874,7 +16875,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"follow-redirects@npm:^1.0.0, follow-redirects@npm:^1.14.9, follow-redirects@npm:^1.15.0":
+"follow-redirects@npm:^1.0.0, follow-redirects@npm:^1.15.0":
   version: 1.15.2
   resolution: "follow-redirects@npm:1.15.2"
   peerDependenciesMeta:
@@ -22381,23 +22382,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nodemon@npm:^2.0.22":
-  version: 2.0.22
-  resolution: "nodemon@npm:2.0.22"
+"nodemon@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "nodemon@npm:3.0.1"
   dependencies:
     chokidar: ^3.5.2
     debug: ^3.2.7
     ignore-by-default: ^1.0.1
     minimatch: ^3.1.2
     pstree.remy: ^1.1.8
-    semver: ^5.7.1
-    simple-update-notifier: ^1.0.7
+    semver: ^7.5.3
+    simple-update-notifier: ^2.0.0
     supports-color: ^5.5.0
     touch: ^3.1.0
     undefsafe: ^2.0.5
   bin:
     nodemon: bin/nodemon.js
-  checksum: 9c987e139748f5b5c480c6c9080bdc97304ee7d29172b7b3da1a7db590b1323ad57b96346304e9b522b0e445c336dc393ccd3f9f45c73b20d476d2347890dcd0
+  checksum: 6a5d81855760d6617049eccce10ccf02bddb482dab13ceea5280ae595ec7004eee13e7b934368e3f46c37fe4d970342a8c38c99cae7e93e4d7a3ed1c1ecb6acf
   languageName: node
   linkType: hard
 
@@ -26300,7 +26301,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:2 || 3 || 4 || 5, semver@npm:^5.4.1, semver@npm:^5.5.0, semver@npm:^5.6.0, semver@npm:^5.7.1":
+"semver@npm:2 || 3 || 4 || 5, semver@npm:^5.4.1, semver@npm:^5.5.0, semver@npm:^5.6.0":
   version: 5.7.1
   resolution: "semver@npm:5.7.1"
   bin:
@@ -26346,15 +26347,6 @@ __metadata:
   bin:
     semver: bin/semver.js
   checksum: 12d8ad952fa353b0995bf180cdac205a4068b759a140e5d3c608317098b3575ac2f1e09182206bf2eb26120e1c0ed8fb92c48c592f6099680de56bb071423ca3
-  languageName: node
-  linkType: hard
-
-"semver@npm:~7.0.0":
-  version: 7.0.0
-  resolution: "semver@npm:7.0.0"
-  bin:
-    semver: bin/semver.js
-  checksum: 272c11bf8d083274ef79fe40a81c55c184dff84dd58e3c325299d0927ba48cece1f020793d138382b85f89bab5002a35a5ba59a3a68a7eebbb597eb733838778
   languageName: node
   linkType: hard
 
@@ -26603,12 +26595,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"simple-update-notifier@npm:^1.0.7":
-  version: 1.1.0
-  resolution: "simple-update-notifier@npm:1.1.0"
+"simple-update-notifier@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "simple-update-notifier@npm:2.0.0"
   dependencies:
-    semver: ~7.0.0
-  checksum: 1012e9b6c504e559a948078177b3eedbb9d7e4d15878e2bda56314d08db609ca5da485be4ac9f838759faae8057935ee0246fcdf63f1233c86bd9fecb2a5544b
+    semver: ^7.5.3
+  checksum: 9ba00d38ce6a29682f64a46213834e4eb01634c2f52c813a9a7b8873ca49cdbb703696f3290f3b27dc067de6d9418b0b84bef22c3eb074acf352529b2d6c27fd
   languageName: node
   linkType: hard
 
